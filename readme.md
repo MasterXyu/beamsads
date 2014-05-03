@@ -28,31 +28,24 @@ Now, on to some specifics about the ad plugin...
 To implement the software's ad display features, first add the Beams Ads CSS and JavaScript files to your project. Then link to them in the header of any html page you want to show ads by adding links as follows:
 
 ```
-
 <link rel="stylesheet" href="css/ads.css">
 <script src="js/ads/jquery.interstitial.min.js" type="text/javascript"></script>
 <script src="js/cookies/jquery.cookie.js" type="text/javascript"></script>
-
 ```
 
 Then add the following statement somewhere on the html page, either in the the header or as an inline script in the body.
 
 ```
+  if (!$.cookie('Ad_View')) {
+    $().interstitial('open', {
+      'url' : 'popup.html'
+    }); 
 
-   $(document).ready(function(){
+    //Create a cookie
+    
+    $.cookie('Ad_View', '1', { path: '/' })
 
-       if (!$.cookie('Ad_View')) {
-	  $().interstitial('open', {
-               'url' : 'popup.html'
-           }); 
-	  
-	  //Create a cookie
-
-           $.cookie('Ad_View', '1', { path: '/' })
-
-	};
-
-
+    };
 ```
 
 
