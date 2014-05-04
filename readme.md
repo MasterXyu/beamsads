@@ -8,7 +8,9 @@ All the Beams modules were created by me on behalf of Roscoe Labs. They're free 
 
 For a fuller introduction to Beams, visit http://roscoelabs.com/products/beams or http://github.com/roscoelabs
 
-Please note, we do consider this version of the ad plugin to be an alpha release. We're eager to develop a community around the software to keep improving it from here. In that spirit, we welcome contributions of all kinds via GitHub, including forks, pull requests, bug reports, feature suggestions, and so on.
+For a demo of Beams Ads display features in action, see http://roscoelabs.com/testbed/beamsads/
+
+Please note, we do consider this version of the software to be an alpha release. We're eager to develop a community around the software to keep improving it from here. In that spirit, we welcome contributions of all kinds via GitHub, including forks, pull requests, bug reports, feature suggestions, and so on.
 
 There's also a Beams Working Group email list that anyone can join at https://groups.google.com/forum/#!forum/beams-working-group
 
@@ -84,5 +86,5 @@ Finally, I must tip my hat to Brett DeWoody (http://github.com/brettdewoody) and
 Peter McKay   
 Co-Founder/Chief Product Officer   
 Roscoe Labs   
-April 2, 2014   
+May 2014   
 
